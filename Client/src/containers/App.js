@@ -12,7 +12,7 @@ export default function App() {
   console.log(cities.map(x => x.name === 'Funes'))
 
   function onSearch(ciudad) {
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=4ae2636d8dfbdc3044bede63951a019b&units=metric`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=4ae2636d8dfbdc3044bede63951a019b&units=metric`)
       .then(r => r.json())
   
       .then((recurso) => {
