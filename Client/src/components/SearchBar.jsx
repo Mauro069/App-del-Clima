@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import './SearchBar.css'
 
 export default function SearchBar({onSearch}) {
   const [city, setCity] = useState('');
-  console.log(city)
+
   return (
     <form className='form-conteiner' onSubmit={(e) => {
       e.preventDefault();

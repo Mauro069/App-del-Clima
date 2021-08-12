@@ -3,7 +3,7 @@ import "./Card.css";
 import boton from "./boton.png";
 
 export default function Card({ min, max, name, img, onClose, id }) {
-  console.log(min, max, name, img, onClose, id)
+
   return (
     <div className="card__conteiner">
       <div className="img__conteiner">
