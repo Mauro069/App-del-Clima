@@ -21,11 +21,11 @@ export default function Card({ min, max, name, img, onClose, id }) {
           </div>
           <div className="data__conteiner">
             <div className="minmax__conteiner">
-              <p className="minmax">Min</p>
+              <p className="minmax">Mín</p>
               <p className="temp">{min}°</p>
             </div>
             <div className="min-max-conteiner">
-              <p className="minmax">Max</p>
+              <p className="minmax">Máx</p>
               <p className="temp">{max}°</p>
             </div>
           </div>
