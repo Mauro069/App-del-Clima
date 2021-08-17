@@ -1,6 +1,6 @@
 {
-  "short_name": "App del Clima",
-  "name": "App del Clima",
+  "short_name": "Wheater App",
+  "name": "Wheater App",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#00ffff",
+  "background_color": "#00ffff"
 }

@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 25px;
-    width: 1000px;
+    width: 50%;
     height: 45px;
     background-color: #9dcfff;
     border-radius: 25px;
@@ -18,7 +18,7 @@
     border-bottom-left-radius: 10px;
     color: #fff;
     padding-left: 10px;
-    width: 40%;
+    width: 50%;
     height: 30px;
 }
 

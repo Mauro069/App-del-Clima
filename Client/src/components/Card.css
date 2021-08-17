@@ -64,8 +64,9 @@ html {
 }
 
 .city__name {
+  text-align: left;
   color: white;
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 25px;
   margin: 0;
 }
@@ -79,7 +80,7 @@ html {
 }
 
 .temp {
-  margin-top: -12px;
+  margin-top: -3px;
   font-size: 35px;
   font-weight: bold;
   color: white;
@@ -101,6 +102,7 @@ button,
 
 
 button {
+  cursor: pointer;
   text-decoration: none;
   background: none;
   border: none;
