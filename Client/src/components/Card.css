@@ -97,9 +97,8 @@ h5,
 button,
 .city__name,
 .boton:focus-visible {
-    outline: none;
+  outline: none;
 }
-
 
 button {
   cursor: pointer;
